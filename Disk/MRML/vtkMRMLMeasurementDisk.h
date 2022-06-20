@@ -5,9 +5,9 @@
 #include "vtkMRMLMeasurement.h"
 
 // Markups includes
-#include "vtkSlicerMarkupsModuleMRMLExport.h"
+#include "vtkSlicerDiskModuleMRMLExport.h"
 
-class VTK_SLICER_MARKUPS_MODULE_MRML_EXPORT vtkMRMLMeasurementDisk : public vtkMRMLMeasurement
+class VTK_SLICER_DISK_MODULE_MRML_EXPORT vtkMRMLMeasurementDisk : public vtkMRMLMeasurement
 {
 public:
     static vtkMRMLMeasurementDisk *New();

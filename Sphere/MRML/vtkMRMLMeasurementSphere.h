@@ -5,9 +5,9 @@
 #include "vtkMRMLMeasurement.h"
 
 // Markups includes
-#include "vtkSlicerMarkupsModuleMRMLExport.h"
+#include "vtkSlicerSphereModuleMRMLExport.h"
 
-class VTK_SLICER_MARKUPS_MODULE_MRML_EXPORT vtkMRMLMeasurementSphere : public vtkMRMLMeasurement
+class VTK_SLICER_SPHERE_MODULE_MRML_EXPORT vtkMRMLMeasurementSphere : public vtkMRMLMeasurement
 {
 public:
     static vtkMRMLMeasurementSphere *New();

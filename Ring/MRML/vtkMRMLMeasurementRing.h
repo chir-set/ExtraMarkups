@@ -5,9 +5,9 @@
 #include "vtkMRMLMeasurement.h"
 
 // Markups includes
-#include "vtkSlicerMarkupsModuleMRMLExport.h"
+#include "vtkSlicerRingModuleMRMLExport.h"
 
-class VTK_SLICER_MARKUPS_MODULE_MRML_EXPORT vtkMRMLMeasurementRing : public vtkMRMLMeasurement
+class VTK_SLICER_RING_MODULE_MRML_EXPORT vtkMRMLMeasurementRing : public vtkMRMLMeasurement
 {
 public:
     static vtkMRMLMeasurementRing *New();
